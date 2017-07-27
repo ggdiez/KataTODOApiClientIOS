@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		016CBDA45C60541EC5B53AE7 /* Pods_KataTODOAPIClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FE7148F6B960532B04162E /* Pods_KataTODOAPIClientTests.framework */; };
-		2DCEB8CE4FFF31991B8E8633 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F06AD546F4EC015C4AEB6C1F /* Pods.framework */; };
+		5F7F82663AD7EBDECF4C398E /* Pods_KataTODOAPIClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE62D84220DBB7522211D9AC /* Pods_KataTODOAPIClientTests.framework */; };
 		EB28C8651C6DD32A004A5E74 /* KataTODOAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EB28C8641C6DD32A004A5E74 /* KataTODOAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB28C86C1C6DD32A004A5E74 /* KataTODOAPIClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB28C8611C6DD32A004A5E74 /* KataTODOAPIClient.framework */; };
 		EB28C87C1C6DD72A004A5E74 /* TODOAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB28C87B1C6DD72A004A5E74 /* TODOAPIClient.swift */; };
@@ -40,9 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3D1A666048C276C396656D2C /* Pods-KataTODOAPIClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataTODOAPIClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KataTODOAPIClientTests/Pods-KataTODOAPIClientTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4B1654D28730C94D1B8DFFD1 /* Pods-KataTODOAPIClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataTODOAPIClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KataTODOAPIClientTests/Pods-KataTODOAPIClientTests.release.xcconfig"; sourceTree = "<group>"; };
-		50488F4E0E32CE93F3CD96F8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4F434DD3921A5A265EF19C11 /* Pods-KataTODOAPIClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataTODOAPIClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KataTODOAPIClientTests/Pods-KataTODOAPIClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		D8CC368979AB563EF22E4868 /* Pods-KataTODOAPIClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataTODOAPIClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KataTODOAPIClientTests/Pods-KataTODOAPIClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE62D84220DBB7522211D9AC /* Pods_KataTODOAPIClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KataTODOAPIClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB28C8611C6DD32A004A5E74 /* KataTODOAPIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KataTODOAPIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB28C8641C6DD32A004A5E74 /* KataTODOAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KataTODOAPIClient.h; sourceTree = "<group>"; };
 		EB28C8661C6DD32A004A5E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,8 +65,6 @@
 		EB28C89E1C6E1E26004A5E74 /* updateTaskRequest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = updateTaskRequest.json; sourceTree = "<group>"; };
 		EB28C8A01C6E1EFC004A5E74 /* updateTaskResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = updateTaskResponse.json; sourceTree = "<group>"; };
 		F06AD546F4EC015C4AEB6C1F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1FE7148F6B960532B04162E /* Pods_KataTODOAPIClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KataTODOAPIClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F580F03C90793ABC52D3DBF6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCEB8CE4FFF31991B8E8633 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,31 +80,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB28C86C1C6DD32A004A5E74 /* KataTODOAPIClient.framework in Frameworks */,
-				016CBDA45C60541EC5B53AE7 /* Pods_KataTODOAPIClientTests.framework in Frameworks */,
+				5F7F82663AD7EBDECF4C398E /* Pods_KataTODOAPIClientTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10326006C51E6C09671E85EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8CC368979AB563EF22E4868 /* Pods-KataTODOAPIClientTests.debug.xcconfig */,
+				4F434DD3921A5A265EF19C11 /* Pods-KataTODOAPIClientTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		278C75894C520E46833A1E8E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				F06AD546F4EC015C4AEB6C1F /* Pods.framework */,
-				F1FE7148F6B960532B04162E /* Pods_KataTODOAPIClientTests.framework */,
+				DE62D84220DBB7522211D9AC /* Pods_KataTODOAPIClientTests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		85D7A416993D7405C8ADF9C6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F580F03C90793ABC52D3DBF6 /* Pods.debug.xcconfig */,
-				50488F4E0E32CE93F3CD96F8 /* Pods.release.xcconfig */,
-				3D1A666048C276C396656D2C /* Pods-KataTODOAPIClientTests.debug.xcconfig */,
-				4B1654D28730C94D1B8DFFD1 /* Pods-KataTODOAPIClientTests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		EB28C8571C6DD32A004A5E74 = {
@@ -118,8 +112,8 @@
 				EB28C8631C6DD32A004A5E74 /* KataTODOAPIClient */,
 				EB28C86F1C6DD32A004A5E74 /* KataTODOAPIClientTests */,
 				EB28C8621C6DD32A004A5E74 /* Products */,
-				85D7A416993D7405C8ADF9C6 /* Pods */,
 				278C75894C520E46833A1E8E /* Frameworks */,
+				10326006C51E6C09671E85EE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -231,12 +225,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB28C8751C6DD32A004A5E74 /* Build configuration list for PBXNativeTarget "KataTODOAPIClient" */;
 			buildPhases = (
-				42F34837FFFDF80EC1AF1853 /* Check Pods Manifest.lock */,
 				EB28C85C1C6DD32A004A5E74 /* Sources */,
 				EB28C85D1C6DD32A004A5E74 /* Frameworks */,
 				EB28C85E1C6DD32A004A5E74 /* Headers */,
 				EB28C85F1C6DD32A004A5E74 /* Resources */,
-				0227C6698A4F70015412686C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,12 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB28C8781C6DD32A004A5E74 /* Build configuration list for PBXNativeTarget "KataTODOAPIClientTests" */;
 			buildPhases = (
-				A44802791A3B90413B5C44EF /* Check Pods Manifest.lock */,
+				C2F4145B08E9BFD015E1C977 /* [CP] Check Pods Manifest.lock */,
 				EB28C8671C6DD32A004A5E74 /* Sources */,
 				EB28C8681C6DD32A004A5E74 /* Frameworks */,
 				EB28C8691C6DD32A004A5E74 /* Resources */,
-				9A6C695D3B1837799811E8FA /* Embed Pods Frameworks */,
-				1BD9FC69EF9CBD0B2D1A367F /* Copy Pods Resources */,
+				3D0A663A7A38D4190B6A3D27 /* [CP] Embed Pods Frameworks */,
+				71B2B0EAD43015079CD45997 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -328,59 +320,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0227C6698A4F70015412686C /* Copy Pods Resources */ = {
+		3D0A663A7A38D4190B6A3D27 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1BD9FC69EF9CBD0B2D1A367F /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KataTODOAPIClientTests/Pods-KataTODOAPIClientTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		42F34837FFFDF80EC1AF1853 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9A6C695D3B1837799811E8FA /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,19 +335,34 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KataTODOAPIClientTests/Pods-KataTODOAPIClientTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A44802791A3B90413B5C44EF /* Check Pods Manifest.lock */ = {
+		71B2B0EAD43015079CD45997 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KataTODOAPIClientTests/Pods-KataTODOAPIClientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2F4145B08E9BFD015E1C977 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -532,7 +494,6 @@
 		};
 		EB28C8761C6DD32A004A5E74 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F580F03C90793ABC52D3DBF6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -551,7 +512,6 @@
 		};
 		EB28C8771C6DD32A004A5E74 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50488F4E0E32CE93F3CD96F8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -569,7 +529,7 @@
 		};
 		EB28C8791C6DD32A004A5E74 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D1A666048C276C396656D2C /* Pods-KataTODOAPIClientTests.debug.xcconfig */;
+			baseConfigurationReference = D8CC368979AB563EF22E4868 /* Pods-KataTODOAPIClientTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = KataTODOAPIClientTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -580,7 +540,7 @@
 		};
 		EB28C87A1C6DD32A004A5E74 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B1654D28730C94D1B8DFFD1 /* Pods-KataTODOAPIClientTests.release.xcconfig */;
+			baseConfigurationReference = 4F434DD3921A5A265EF19C11 /* Pods-KataTODOAPIClientTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = KataTODOAPIClientTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
