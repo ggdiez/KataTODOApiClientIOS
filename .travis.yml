@@ -8,7 +8,7 @@ before_install:
   - pod repo update --silent
 
 install:
-  - pod repo update
+  - pod update
   - pod install
 
 script:
